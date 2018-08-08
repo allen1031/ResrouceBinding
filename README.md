@@ -4,6 +4,10 @@
 
 In this Project we simulate the operation scheduling and resource binding that usually used in a compiler.
 
+## # **Work Environment**
+
+Visual Studio 2017.
+
 ## # **Example**
 
 1. In the input line, a user inputs a calcualtion opeartion like "a+b-cxd/e" within operators range of "+-x/".
@@ -30,4 +34,6 @@ In this Project we simulate the operation scheduling and resource binding that u
 
 ## **Limited Situation**
 The program doesn't solve the operations with "()". The priority of operators that this program follows is "*" = "/" > "+" = "-". 
+
+
 
