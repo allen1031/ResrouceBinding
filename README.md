@@ -16,18 +16,18 @@ In this Project we simulate the operation scheduling and resource binding that u
 
 
 ### # **ASAP(As Soon As Possible) Algorithm:**
-1. Find a candidate node 
-   1.1. Candidate is a node whose predecessors have been scheduled and completed or has no predecessors
+1. Find a candidate node.
+   1.1. Candidate is a node whose predecessors have been scheduled and completed or has no predecessors.
 2. Schedule node one cycle later than max cycle of predecessor. 
 3. Repeat until all nodes scheduled.
 
 ### # **ALAP(As Late As Possible) Algorithm:**
 1. Run ASAP, get minimum latency L.
-2. Find a candidate (here, candidate is  a node whose successors are scheduled or has no successors) 
+2. Find a candidate (here, candidate is  a node whose successors are scheduled or has no successors). 
 3. Schedule node one cycle before min cycle of a predecessor.
-   3.1. Nodes with no successors scheduled to cycle L 
-4. Repeat until all nodes scheduled 
+   3.1. Nodes with no successors scheduled to cycle L.
+4. Repeat until all nodes scheduled.
 
 ## **Limited Situation**
-The program doesn't solve the operations with "()". The priority of operators that this program follows is "*" = "/" > "+" = ""- 
+The program doesn't solve the operations with "()". The priority of operators that this program follows is "*" = "/" > "+" = "-". 
 
