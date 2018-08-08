@@ -6,8 +6,8 @@ In this Project we simulate the operation scheduling and resource binding that u
 
 ## # **Example**
 
-1. In the input line, a user inputs a calcualtion opeartion like "a+b-c*d/e" within operators range of "+-*/".
-2. In the process, we use different scheduling algorithm to schedule each operator. for example, for operation like "a+b-c*d/e", "c*d" will be performed first and hense will be scheduled in the cycle 0. And so on, we will schedule each opeartor occured in the operation.
+1. In the input line, a user inputs a calcualtion opeartion like "a+b-cxd/e" within operators range of "+-x/".
+2. In the process, we use different scheduling algorithm to schedule each operator. for example, for operation like "a+b-cxd/e", "cxd" will be performed first and hense will be scheduled in the cycle 0. And so on, we will schedule each opeartor occured in the operation.
 3. In the output, we show the scheduled cycle for each operator and a latency to show how long to finish the whole input operation.
 
 ## # **Program Process**
